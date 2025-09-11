@@ -1,3 +1,4 @@
+import "Form.css"
 function Form() {
   return (
     <div className="col-md-5">
