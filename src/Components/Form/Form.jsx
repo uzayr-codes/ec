@@ -1,4 +1,5 @@
-import "Form.css"
+import "./Form.css";  
+
 function Form() {
   return (
     <div className="col-md-5">
@@ -44,7 +45,7 @@ function Form() {
           />
         </div>
 
-        <button type="submit" className="btn btn-primary">
+        <button type="submit" className="form-btn btn-primary">
           Book Appointment
         </button>
       </form>

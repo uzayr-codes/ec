@@ -1,0 +1,29 @@
+:root {
+  --Skin-color: #fee2b3;
+  --Darkskin-color: #fed48d;
+  --black-color: #000000;
+  --white-color: #ffffff;
+  --grey-color: #364d59;
+  --Ghost-white: #f8f9fa;
+}
+
+.form-background {
+  background-color: var(--white-color);
+  padding: 20px;
+  border-radius: 8px;
+  width: 450px;
+  margin-left: 90px;
+  margin-top: -70px;
+
+}
+.form-btn{
+
+  background-color: var(--Skin-color);
+  padding: 17px 136px;
+  border: none;
+  border-radius: 10px;
+  color: var(--black-color);
+  font-weight: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+
+}
