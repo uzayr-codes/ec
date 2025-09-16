@@ -1,24 +1,20 @@
 import Form from "../Form/form";
 import "./banner.css";
 
-function Banner() {
+function Banner({ title, desc }) {
   return (
     <section className="banner">
       <div className="container">
         <div className="row">
           <div className="col-md-6">
-        <div className="bannerInner text-center">
-          <h1>Notary Public & Legal Solutions</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis
-            cupiditate deserunt placeat necessitatibus a aliquam corrupti nisi
-            odio aliquid, accusamus.
-          </p>
-        </div>
-      </div>
-      <div className="col-6">
-       <Form/>
-      </div>
+            <div className="bannerInner text-center">
+              <h1> {title} </h1>
+              <p> {desc} </p>
+            </div>
+          </div>
+          <div className="col-6">
+            <Form />
+          </div>
         </div>
       </div>
     </section>

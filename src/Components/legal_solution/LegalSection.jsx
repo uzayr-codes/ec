@@ -1,10 +1,8 @@
-import React from 'react'
-import "./legal.css"
+import React from "react";
+import "./legal.css";
 
-function LegaSection() {
-  return (
-    <div>LegalSection</div>
-  )
+function LegalSection() {
+  return <div></div>;
 }
 
-export default LegaSection
+export default LegalSection;
