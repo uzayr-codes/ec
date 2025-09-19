@@ -5,7 +5,7 @@ function About() {
   return (
     <Banner
       title="This is about page"
-      desc="Fck You"
+      desc="Lallllalalllalalalaalalallalala"
     />
   );
 }
